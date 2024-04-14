@@ -1,7 +1,9 @@
 pipeline {
-  agent any 
-  stages
-  {stage('My First Job to print')
-    {stpes {sh 'echo hello_jenkins}}
-  }
+agent any  
+stages
+{   stage ('my first job to print')
+     {steps {sh 'echo hello_jenkins'}}
+
+
+}            
 }
